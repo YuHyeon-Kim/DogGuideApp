@@ -9,8 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="kr.hs.dbgus3577e_mirim.dogguideapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/but_1"
+        android:text="@string/but_1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/but_1"
+        android:id="@+id/but_2"
+        android:text="@string/but_2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/but_2"
+        android:id="@+id/but_3"
+        android:text="@string/but_3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/but_3"
+        android:id="@+id/but_4"
+        android:text="@string/but_4"
+        />
 </RelativeLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DogGuideApp</string>
+    <string name="but_1">강아지가 구토해요</string>
+    <string name="but_2">강아지가 핥아요</string>
+    <string name="but_3">강아지가 짖어요</string>
+    <string name="but_4">강아지가 밥을 안먹어요</string>
 </resources>
