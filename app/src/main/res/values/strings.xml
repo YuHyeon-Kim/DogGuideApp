@@ -8,4 +8,7 @@
     <string name="text_1">우리집 강아지\n</string>
     <string name="mini_but_1">\n정보</string>
     <string name="mini_but_2">\n정보</string>
+
+    <string name="but_move_str">이동</string>
+    <string name="but_prev_str">이전</string>
 </resources>
