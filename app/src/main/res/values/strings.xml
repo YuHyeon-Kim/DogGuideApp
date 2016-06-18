@@ -11,4 +11,10 @@
 
     <string name="but_move_str">이동</string>
     <string name="but_prev_str">이전</string>
+
+    <string name="activity_but1">버튼1 내용</string>
+    <string name="activity_but2">버튼2 내용</string>
+    <string name="activity_but3">버튼3 내용</string>
+    <string name="activity_but4">버튼4 내용</string>
+    <string name="activity_but5">버튼5 내용</string>
 </resources>

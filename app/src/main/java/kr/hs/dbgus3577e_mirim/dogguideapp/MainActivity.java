@@ -20,40 +20,43 @@ public class MainActivity extends AppCompatActivity {
         // *** 버튼 1 ***
         but1 = (Button)findViewById(R.id.but_1);
         but1.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
-                // 수행 할 기능 소스
+                Intent intent = new Intent(MainActivity.this, But1Activity.class);
+                startActivity(intent);
             }
         });
 
         // *** 버튼 2 ***
-        but1 = (Button)findViewById(R.id.but_1);
-        but1.setOnClickListener(new View.OnClickListener() {
+        but2 = (Button)findViewById(R.id.but_2);
+        but2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // 수행 할 기능 소스
+                Intent intent = new Intent(MainActivity.this, But2Activity.class);
+                startActivity(intent);
             }
         });
 
         // *** 버튼 3 ***
-        but1 = (Button)findViewById(R.id.but_1);
-        but1.setOnClickListener(new View.OnClickListener() {
+        but3 = (Button)findViewById(R.id.but_3);
+        but3.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // 수행 할 기능 소스
+                Intent intent = new Intent(MainActivity.this, But3Activity.class);
+                startActivity(intent);
             }
         });
 
         // *** 버튼 4 ***
-        but1 = (Button)findViewById(R.id.but_1);
-        but1.setOnClickListener(new View.OnClickListener() {
+        but4 = (Button)findViewById(R.id.but_4);
+        but4.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // 수행 할 기능 소스
+                Intent intent = new Intent(MainActivity.this, But4Activity.class);
+                startActivity(intent);
             }
         });
 
@@ -64,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BrowserActivity.class);
                 startActivity(intent);
-
             }
         });
     }

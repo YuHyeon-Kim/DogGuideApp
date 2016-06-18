@@ -25,12 +25,41 @@
             android:configChanges="keyboardHidden|orientation">
         </activity>
 
+        // BrowserActivity
         <activity android:name=".BrowserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        // But1Activity
+        <activity
+            android:name=".But1Activity"
+            android:label="@string/but_1"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        // But2Activity
+        <activity
+            android:name=".But2Activity"
+            android:label="@string/but_2"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        // But3Activity
+        <activity
+            android:name=".But3Activity"
+            android:label="@string/but_3"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        // But4Activity
+        <activity
+            android:name=".But4Activity"
+            android:label="@string/but_4"
+            android:configChanges="keyboardHidden|orientation">
         </activity>
 
     </application>
