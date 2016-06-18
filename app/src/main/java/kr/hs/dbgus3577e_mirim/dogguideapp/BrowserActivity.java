@@ -48,4 +48,10 @@ public class BrowserActivity extends AppCompatActivity implements View.OnClickLi
                 break;
         }
     }
+    // 뒤로가기
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+
 }
