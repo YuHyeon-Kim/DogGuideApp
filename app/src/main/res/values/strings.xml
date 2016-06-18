@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">DogGuideApp</string>
+    <string name="app_name">강아지 도우미</string>
     <string name="but_1">강아지가 구토해요</string>
     <string name="but_2">강아지가 핥아요</string>
     <string name="but_3">강아지가 짖어요</string>
     <string name="but_4">강아지가 밥을 안먹어요</string>
+    <string name="but_5">검색해보기</string>
+    <string name="text_1">우리집 강아지\n</string>
+    <string name="mini_but_1">\n정보</string>
+    <string name="mini_but_2">\n정보</string>
 </resources>
