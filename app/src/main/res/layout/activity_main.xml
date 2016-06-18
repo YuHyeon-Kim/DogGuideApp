@@ -23,10 +23,12 @@
             android:text="@string/but_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="left"
             android:layout_weight="1"
             android:id="@+id/but_1"
             android:textSize="11pt"
             android:background="@color/color_1"
+            android:drawableLeft="@drawable/button1"
             />
         <Button
             android:id="@+id/but_2"
@@ -37,6 +39,7 @@
             android:text="@string/but_2"
             android:textSize="11pt"
             android:background="@color/color_1"
+            android:drawableRight="@drawable/button2"
             />
 
         <Button
@@ -49,6 +52,7 @@
             android:text="@string/but_3"
             android:textSize="11pt"
             android:background="@color/color_1"
+            android:drawableLeft="@drawable/button1"
             />
 
         <Button
@@ -60,6 +64,7 @@
             android:text="@string/but_4"
             android:textSize="11pt"
             android:background="@color/color_1"
+            android:drawableRight="@drawable/button2"
             />
         <Button
             android:text="@string/but_5"
@@ -70,32 +75,9 @@
             android:id="@+id/but_5"
             android:textSize="11pt"
             android:background="@color/color_1"
+            android:drawableLeft="@drawable/button1"
             />
         >
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2.5"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/mini_but_1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/mini_but_1"
-            android:background="@drawable/but_image1"
-            />
-        <Button
-            android:id="@+id/mini_but_2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/mini_but_2"
-            android:background="@drawable/but_image2"
-            />
-
     </LinearLayout>
 
 </LinearLayout>
