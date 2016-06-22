@@ -67,7 +67,7 @@
             android:drawableRight="@drawable/button2"
             />
         <Button
-            android:text="@string/but_5"
+            android:text="@string/browser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

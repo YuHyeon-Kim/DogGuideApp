@@ -25,16 +25,6 @@
             android:configChanges="keyboardHidden|orientation">
         </activity>
 
-        // BrowserActivity
-        <activity
-            android:name=".BrowserActivity">
-            android:label="@string/but_5"
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         // But1Activity
         <activity
@@ -61,6 +51,26 @@
         <activity
             android:name=".But4Activity"
             android:label="@string/but_4"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        // BrowserActivity
+        <activity
+            android:name=".BrowserActivity"
+            android:label="@string/browser"
+            android:configChanges="keyboardHidden|orientation">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        // RandomActivity
+        <activity
+            android:name=".RandomActivity"
+            android:label="@string/food_but"
             android:configChanges="keyboardHidden|orientation">
         </activity>
 

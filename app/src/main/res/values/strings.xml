@@ -4,17 +4,13 @@
     <string name="but_2">짖음의 원인</string>
     <string name="but_3">강아지 간식</string>
     <string name="but_4">강아지 쇼핑몰</string>
-    <string name="but_5">검색해보기</string>
+    <string name="browser">검색해보기</string>
+    <string name="food_but">오늘의 간식</string>
+
     <string name="text_1">우리집 강아지\n</string>
     <string name="mini_but_1">\n정보</string>
     <string name="mini_but_2">\n정보</string>
 
     <string name="but_move_str">이동</string>
     <string name="but_prev_str">이전</string>
-
-    <string name="activity_but1">버튼1 내용</string>
-    <string name="activity_but2">버튼2 내용</string>
-    <string name="activity_but3">버튼3 내용</string>
-    <string name="activity_but4">버튼4 내용</string>
-    <string name="activity_but5">버튼5 내용</string>
 </resources>

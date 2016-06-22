@@ -1,215 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
-    >
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+    android:layout_height="wrap_content">
 
-        <!-- 흰색 구토 -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t1"
-            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!-- 흰색 구토 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/t1"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n투명한 구토" />
+                <TextView
+                    android:id="@+id/text_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위액 또는 침의 역류, 공복이나 먹이를 제때 주지 않았을 경우: 지속적인 구토를 할 경우에는 병원을 방문하세요."
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+            <!-- 거품섞인 구토 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-            <TextView
-                android:id="@+id/text_1"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n투명한 구토" />
-            <TextView
-                android:id="@+id/text_1_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="위액 또는 침의 역류, 공복이나 먹이를 제때 주지 않았을 경우: 지속적인 구토를 할 경우에는 병원을 방문하세요"
+                android:layout_gravity="left"
+                android:src="@drawable/t2"
                 />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n거품섞인 구토"
+                    />
+                <TextView
+                    android:id="@+id/text_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="토가 역류해 공기와 함께 삼켜져서 거품이 일어나는 경우: 지속적인 구토를 할 경우에는 병원을 방문하세요."
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-        <!-- 거품섞인 구토 -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t2"
-            />
+            <!-- 사료섞인 구토 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-            <TextView
-                android:id="@+id/text_2"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n거품섞인 구토"
+                android:layout_gravity="left"
+                android:src="@drawable/t3"
                 />
-            <TextView
-                android:id="@+id/text_2_1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="토가 역류해 공기와 함께 삼켜져서 거품이 일어나는 경우: 지속적인 구토를 할 경우에는 병원을 방문하세요"
-                />
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n사료섞인 구토"
+                    />
+                <TextView
+                    android:id="@+id/text_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="공복의 상태가 길어질 경우: 소화액이 위를 자극해 거품과 구토하는 경우가 많습니다."
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-        <!-- 사료섞인 구토 -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t3"
-            />
+            <!-- 노란색 구토 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-            <TextView
-                android:id="@+id/text_3"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n사료섞인 구토"
+                android:layout_gravity="left"
+                android:src="@drawable/t4"
                 />
-            <TextView
-                android:id="@+id/text_3_1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="공복의 상태가 길어질 경우: 소화액이 위를 자극해 거품과 구토하는 경우가 많습니다"
-                />
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n노란색 구토"
+                    />
+                <TextView
+                    android:id="@+id/text_4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="급하게 먹었거나 과식 또는 소화불량일 경우: 소화가 잘 되도록 작게 잘라 주시거나 사료를 물에 불려 급여하세요."
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-        <!-- 노란색 구토 -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t4"
-            />
+            <!-- 분홍색 구토 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-            <TextView
-                android:id="@+id/text_4"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n노란색 구토"
+                android:layout_gravity="left"
+                android:src="@drawable/t5"
                 />
-            <TextView
-                android:id="@+id/text_4_1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="급하게 먹었거나 과식 또는 소화불량일 경우: 소화가 잘 되도록 작게 잘라 주시거나 사료를 물에 불려 급여하세요"
-                />
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n분홍색 구토"
+                    />
+                <TextView
+                    android:id="@+id/text_5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="입 안 또는 식도 부분의 상처, 위장 상처로 인한 소량의 출혈: 가끔 나는 증상일 경우 문제가 없을 수 있으나 지속적인 구토를 할 경우에는 병원을 방문하세요"
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-        <!-- 분홍색 구토 -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t5"
-            />
+            <!-- 빨간색 구토 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-            <TextView
-                android:id="@+id/text_5"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n분홍색 구토"
+                android:layout_gravity="left"
+                android:src="@drawable/t6"
                 />
-            <TextView
-                android:id="@+id/text_5_1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="입 안 또는 식도 부분의 상처, 위장 상처로 인한 소량의 출혈: 가끔 나는 증상일 경우 문제가 없을 수 있으나 지속적인 구토를 할 경우에는 병원을 방문하세요"
-                />
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/text_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="\n빨간색 구토"
+                    />
+                <TextView
+                    android:id="@+id/text_6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="입 안이나 식도, 위장에 상처가 생겨 출혈이 많은 경우: 출혈이 많은 경우 위험한 상황이 발생할 수 있으니 병원을 방문해주세요."
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-
-        <!-- 빨간색 구토 -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:src="@drawable/t6"
-            />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:id="@+id/text_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="\n빨간색 구토"
-                />
-            <TextView
-                android:id="@+id/text_6_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="입 안이나 식도, 위장에 상처가 생겨 출혈이 많은 경우: 출혈이 많은 경우 위험한 상황이 발생할 수 있으니 병원을 방문해주세요"
-                />
-        </LinearLayout>
-    </LinearLayout>
     </LinearLayout>
 </ScrollView>

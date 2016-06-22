@@ -1,13 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_but2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/activity_but2"
-        />
-</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+            <!-- 다른 개가 짖을 때 따라 짖는 경우 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n다른 개를 따라 짖을 때" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이것은 본능이라 통제하기가 어렵습니다. 서열 높은 개가 짖으면 같이 짖게 되는 경우가 많습니다."
+                />
+        </LinearLayout>
+
+            <!-- 관심받고 싶거나 반가운 사람을 봤을 때 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n관심받고 싶거나 반가운 사람을 봤을 때"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="반가운 사람을 보거나 친구를 만났을 때 반가운 마음에 흥분하여 짖기도 합니다. 또는 배고프거나 간식이 먹고 싶을 때 짖기도 합니다."
+                />
+        </LinearLayout>
+
+            <!-- 분리불안 증상으로 인해 짖는 경우 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n분리불안 증상으로 인해 짖는 경우" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="견주가 외출을 했거나 안정하지 못하여 짖고 스트레스를 집안 물건을 망가뜨리고 자신의 몸을 핥기도 합니다."
+                />
+        </LinearLayout>
+
+            <!-- 위험한 상황을 알려주려고 짖는 경우 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n위험한 상황을 알려주려고 짖는 경우" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강아지는 동물적 감각이 매우 뛰어나 위험 감지에 예민합니다.
+                 이런 경우에는 몸이 경직되어 짓습니다. 갑작스러운 소리나 소음에 반응해 위험을 감지하고 짖게 되는 것입니다."
+                />
+        </LinearLayout>
+
+            <!-- 영역보호로 인해 짖는 경우 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n영역보호로 인해 짖는 경우" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="반려견은 자신의 영역에 민감한 동물입니다. 자신만의 영역에 누가 들어왔을 경우 사람이든 동물이든 상관 없이 짖을 수 있습니다."
+                />
+        </LinearLayout>
+
+            <!-- 위험한 상황을 알려주려고 짖는 경우 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="\n그 외에 짖는 경우" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강박 증상으로 짖기도 하고 몸에 이상이 있거나 아플 때 짖기도 합니다."
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
